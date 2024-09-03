@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "ReElon",
+    "version": "1.0",
+    "description": "Replaces a static URL with another.",
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "reelon@email.com",
+            "strict_min_version": "42.0"
+        }
+    }
+}
