@@ -2,11 +2,11 @@
     "manifest_version": 2,
     "name": "ReElon",
     "version": "1.0",
-    "description": "Replaces a static URL with another.",
+    "description": "Replaces a specific image URL with another on a specific site.",
     "permissions": [
-        "activeTab",
         "webRequest",
         "webRequestBlocking",
+        "activeTab",
         "<all_urls>"
     ],
     "content_scripts": [
@@ -17,14 +17,9 @@
             "js": [
                 "content.js"
             ],
-            "run_at": "document_end"
+            "run_at": "document_start"
         }
     ],
-    "background": {
-        "scripts": [
-            "background.js"
-        ]
-    },
     "browser_specific_settings": {
         "gecko": {
             "id": "reelon@email.com",

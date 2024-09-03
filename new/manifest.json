@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "ReElon",
+    "version": "1.0",
+    "description": "Replaces a specific image URL with another on a specific site.",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "activeTab",
+        "<all_urls>"
+    ],
+    "web_accessible_resources": [
+        "images/*.jpg"
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "reelon@email.com",
+            "strict_min_version": "42.0"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "all_frames": true,
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
