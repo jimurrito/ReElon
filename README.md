@@ -4,6 +4,15 @@
 
 Changes a certain CEO's profile picture on twitter to that of his photo from the paypal buyout.
 
+## Features
+
+- 🔥Blazingly slow.
+- 🫗Leaky memory.
+- 🐎Mostly trojan free.
+- 🔑No longer key-logs.
+- 🍞contains gluten.
+
+
 ## How to install
 
 ### Firefox
