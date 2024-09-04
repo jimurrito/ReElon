@@ -30,3 +30,5 @@ Changes a certain CEO's profile picture on twitter to that of his photo from the
 ## How to test?
 
 1. Go to https://twitter.com/elonmusk and see for your self!
+
+![Comparison](./images/compare.png)
