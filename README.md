@@ -1,5 +1,7 @@
 # ReElon
 
+![icon](./images/RealElon_icon-128.png)
+
 Changes a certain CEO's profile picture on twitter to that of his photo from the paypal buyout.
 
 ## How to install
