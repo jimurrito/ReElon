@@ -21,7 +21,7 @@ Changes a certain CEO's profile picture on twitter to that of his photo from the
 3. Under `Temporary Extensions`, select `Load Temporary Add-on...`
 4. In the pop-out window, navigate to the `manifest.json` file of this extension and select it.
 
-## Chromium (Chrome, Edge, Brave)
+### Chromium (Chrome, Edge, Brave)
 1. Goto [chrome://extensions](chrome://extensions) in your chromium based browser.
 2. Select the `Developer Mode` toggle button.
 3. Find and select the `Load unpacked` option.
