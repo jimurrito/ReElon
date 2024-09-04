@@ -6,11 +6,11 @@ Changes a certain CEO's profile picture on twitter to that of his photo from the
 
 ## Features
 
-- 🔥Blazingly slow.
-- 🫗Leaky memory.
-- 🐎Mostly trojan free.
-- 🔑No longer key-logs.
-- 🍞contains gluten.
+- 🔥 Blazingly slow.
+- 🫗 Leaky memory.
+- 🐎 Mostly trojan free.
+- 🔑 No longer key-logs.
+- 🍞 Contains gluten.
 
 
 ## How to install
