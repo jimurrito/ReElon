@@ -2,17 +2,16 @@
     "manifest_version": 2,
     "name": "ReElon",
     "version": "1.0",
-    "description": "Replaces a specific image URL with another on a specific site.",
+    "description": "Changes a certain CEO's profile picture on twitter to that of his photo from the paypal buyout.",
     "permissions": [
-        "webRequest",
-        "webRequestBlocking",
-        "activeTab",
-        "<all_urls>"
+        "https://x.com/*",
+        "https://twitter.com/*"
     ],
     "content_scripts": [
         {
             "matches": [
-                "<all_urls>"
+                "https://x.com/*",
+                "https://twitter.com/*"
             ],
             "js": [
                 "content.js"
